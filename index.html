@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My-assignment-5-js</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class=" bg-[#F4F7FF]">
+  <section>
+    <div class="navbar bg-base-100 shadow-sm rounded-xl mt-10 mb-10 container mx-auto">
+      <div class="flex-1">
+        <div class="flex">
+          <img src="assets/logo.png" alt="">
+          <a class="btn btn-ghost text-4xl"><span class="font-light">Dev</span>Board</a>
+        </div>
+      </div>
+      <div class="flex gap-2">
+        <img src="assets/checkbox.png" alt="">
+        <p id="border-btn">23</p>
+      </div>
+      <div>
+        <img src="assets/theme-btn.png" alt="">
+      </div>
+    </div>
+  </section>
+  <main class="flex container mx-auto bg-white gap-4 rounded-xl">
+    <section>
+<div class="flex mb-16 gap-10 mt-10 ml-8">
+  <div class="flex gap-4 rounded-xl w-65 h-32 bg-[#F4F7FF] justify-center items-center">
+    <div>
+      <img src="assets/checkbox.png" alt="">
+    </div>
+    <div>
+      <p>Task Assigned </p>
+      <span id="task-btn">06</span>
+    </div>
+  </div>
+  <div
+    class="flex gap-4 bg-gradient-to-r from-[#3752FD] via-[#6C7FFA] to-[#9BA8F8] rounded-xl justify-center items-center">
+    <div>
+      <img src="assets/board.png" alt="">
+    </div>
+    <div>
+      <button id="new-btn">Discover Something New Today!</button>
+    </div>
+  </div>
+  <div class="flex gap-4 rounded-xl w-65 h-32 bg-[#F4F7FF] justify-center items-center">
+    <div>
+      <img src="assets/calender.png" alt="">
+    </div>
+    <div>
+      <p>Wed , </p>
+      <p>Jul 28 2025 </p>
+    </div>
+  </div>
+</div>
+
+<div class="grid grid-cols-3 gap-6 mb-10">
+  <div class="bg-[#F4F7FF] rounded-xl w-80 h-74 place-items-center">
+    <div><button class="bg-white rounded-lg">ShopEase</button></div>
+   <div class="text-center">
+    <h2 class="text-2xl font-medium mb-8">Fix Mobile Button Issue </h2>
+    <p class="mb-8 bg-white w-65 h-15 rounded-lg my-8">Debug using Chrome DevTools, check for overlapping elements,</p>
+   </div>
+  <div class="flex space-x-8 justify-center items-center">
+    <div>
+      <p>Deadline</p>
+      <h1 class="font-medium text-lg">21 March 2025</h1>
+    </div>
+    <div>
+      <button id="click-hear" class="bg-[#3752FD] w-35 h-11 rounded-lg text-white">Completed</button>
+    </div>
+  </div>
+  </div>
+  <div class="bg-[#F4F7FF] rounded-xl w-80 h-74 place-items-center">
+    <div><button class="bg-white rounded-lg">CloudSync</button></div>
+   <div class="text-center">
+    <h2 class="text-2xl font-medium mb-8">Add Dark Mode</h2>
+    <p class="mb-8 bg-white w-65 h-15 rounded-lg my-8">Store the user's preference in localStorage, .</p>
+   </div>
+  <div class="flex space-x-8 justify-center items-center">
+    <div>
+      <p>Deadline</p>
+      <h1 class="font-medium text-lg">21 March 2025</h1>
+    </div>
+    <div>
+      <button id="click-hear" class="bg-[#3752FD] w-35 h-11 rounded-lg text-white">Completed</button>
+    </div>
+  </div>
+  </div>
+  <div class="bg-[#F4F7FF] rounded-xl w-80 h-74 place-items-center">
+    <div><button class="bg-white rounded-lg">SwiftPay</button></div>
+   <div class="text-center">
+    <h2 class="text-2xl font-medium mb-8">Optimize  Home page </h2>
+    <p class="mb-8 bg-white w-65 h-15 rounded-lg my-8">Debug using Chrome DevTools, check for </p>
+   </div>
+  <div class="flex space-x-8 justify-center items-center">
+    <div>
+      <p>Deadline</p>
+      <h1 class="font-medium text-lg">21 March 2025</h1>
+    </div>
+    <div>
+      <button id="click-hear" class="bg-[#3752FD] w-35 h-11 rounded-lg text-white">Completed</button>
+    </div>
+  </div>
+  </div>
+  <div class="bg-[#F4F7FF] rounded-xl w-80 h-74 place-items-center">
+    <div><button class="bg-white rounded-lg">Meta</button></div>
+   <div class="text-center">
+    <h2 class="text-2xl font-medium mb-8">Add new emoji 🤲</h2>
+    <p class="mb-8 bg-white w-65 h-15 rounded-lg my-8">Debug using Chrome DevTools, check for overlapping elements,</p>
+   </div>
+  <div class="flex space-x-8 justify-center items-center">
+    <div>
+      <p>Deadline</p>
+      <h1 class="font-medium text-lg">21 March 2025</h1>
+    </div>
+    <div>
+      <button id="click-hear" class="bg-[#3752FD] w-35 h-11 rounded-lg text-white">Completed</button>
+    </div>
+  </div>
+  </div>
+  <div class="bg-[#F4F7FF] rounded-xl w-80 h-74 place-items-center">
+    <div><button class="bg-white rounded-lg">Google LLC</button></div>
+   <div class="text-center">
+    <h2 class="text-2xl font-medium mb-8">Integrate OpenAI API </h2>
+    <p class="mb-8 bg-white w-65 h-15 rounded-lg my-8">Debug using Chrome DevTools, check for overlapping elements,</p>
+   </div>
+  <div class="flex space-x-8 justify-center items-center">
+    <div>
+      <p>Deadline</p>
+      <h1 class="font-medium text-lg">21 March 2025</h1>
+    </div>
+    <div>
+      <button id="click-hear" class="bg-[#3752FD] w-35 h-11 rounded-lg text-white">Completed</button>
+    </div>
+  </div>
+  </div>
+  <div class="bg-[#F4F7FF] rounded-xl w-80 h-74 place-items-center">
+    <div><button class="bg-white rounded-lg">Glassdoar</button></div>
+   <div class="text-center">
+    <h2 class="text-2xl font-medium mb-8">Improve Job searching  </h2>
+    <p class="mb-8 bg-white w-65 h-15 rounded-lg my-8">Debug using Chrome DevTools, check for overlapping elements,</p>
+   </div>
+  <div class="flex space-x-8 justify-center items-center">
+    <div>
+      <p>Deadline</p>
+      <h1 class="font-medium text-lg">21 March 2025</h1>
+    </div>
+    <div>
+      <button id="click-hear" class="bg-[#3752FD] w-35 h-11 rounded-lg text-white">Completed</button>
+    </div>
+  </div>
+  </div>
+  
+  
+</div>
+
+    </section>
+    <section class="bg-[#F4F7FF] text-center rounded-s-xl">
+      <div class="flex space-x-4 justify-center items-center mb-6">
+        <div><img src="assets/activity.png" alt=""></div>
+        <div>Activity Log</div>
+      </div>
+      <button class="bg-[#3752FD] rounded-lg mb-8">Clear History</button>
+      <p id="add-task" class="mb-10">You have Complete The Task Add <br> Dark Mode at 12:48:15 PM</p>
+    </section>
+  </main>
+  <script src="script/aleart.js"></script>
+<script src="script/click.js"></script>
+  <script src="script/script.js"></script>
+</body>
+</html>
